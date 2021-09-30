@@ -17,14 +17,7 @@ function calculateChange(AmountToBeReturned){
 }
 
 function validateBillAndCashAmount() {
-    if(billAmount.value > 0){
-        if(cashGiven.value > billAmount.value){
-            const AmountToBeReturned=cashGiven.value-billAmount.value;
-            calculateChange(AmountToBeReturned);
-
-        }else{
-            outputBox.innerText="Do you wanna wash plates ? "
-        }
+    
     }
     else{
         outputBox.innerText="The Bill Amount should be greater than zero";
@@ -33,3 +26,15 @@ function validateBillAndCashAmount() {
 }
 
 checkBtn.addEventListener("click",validateBillAndCashAmount);
+function calcChange(billAmount.value,cashGiven.value) {
+    if(billAmount.value > 0){
+        if(cashGiven.value > billAmount.value){
+            const AmountToBeReturned=cashGiven.value-billAmount.value;
+            calculateChange(AmountToBeReturned);
+
+        }else{
+            outputBox.innerText="Do you wanna wash plates ? "
+        }
+
+    
+}
