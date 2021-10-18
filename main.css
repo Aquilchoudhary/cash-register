@@ -20,3 +20,9 @@ body{
     background-color: red;
     border-radius: 1rem;
 }
+.no-of-notes{
+    border: solid 1px blue;
+}
+.change-returm{
+    border: solid 1px blue;
+}
