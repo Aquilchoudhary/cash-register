@@ -7,22 +7,32 @@ body{
     background-color: aquamarine;
 }
 #bill-amount{
-    background-color:red;
+    background-color:rgb(243, 241, 150);
     border-radius: 1rem;
-   
+    border: solid 2px blue;
+    
 }
 #cash-given{
-    background-color: red;
+    background-color: rgb(243, 241, 150);
     border-radius: 1rem;
-  
+    border: solid 2px blue;
 }
 #check-button{
-    background-color: red;
+    background-color: rgb(243, 241, 150);
     border-radius: 1rem;
+    border: solid 2px blue;
+    margin-top: 1rem;
 }
 .no-of-notes{
-    border: solid 1px blue;
+    border: solid 2px blue;
 }
-.change-returm{
-    border: solid 1px blue;
+.change-return{
+    border: solid 2px blue;
+}
+p{
+    border: solid 2px blue;
+    padding: 1rem;
+}
+#notes{
+    border: solid 2px blue; 
 }
